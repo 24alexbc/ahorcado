@@ -10,7 +10,7 @@ fun main() {
     val listaAleatoria = lista[Random.nextInt(lista.size)]
 
     val palabraOculta = MutableList(listaAleatoria.length) { '*' }
-
+    val rm= ReproductorMidi("SevenNationArmy.mid")
     var intentos = 6
     println()
     println("Cargando juego , espera ...")
